@@ -6,4 +6,4 @@ test('creates an employee object', () => {
     expect(newEmployee.name).toBe('name');
 })
 
-let bob = newEmployee('Bob');
+// let bob = newEmployee('Bob');
