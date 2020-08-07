@@ -11,7 +11,7 @@ function generateTeam(team) {
             <h5 class="card-title">${manager.getRole()}</h5>
               <ul class="card-text">
                 <li>ID: ${manager.getId()}</li>
-                <li>Email: ${manager.getEmail()}</li>
+                <li><a href='${manager.getEmail()}'>Email: ${manager.getEmail()}</a></li>
                 <li>Office ID: ${manager.getOfficeNumber()}</li>
               </ul>
         </div>
@@ -29,8 +29,8 @@ function generateTeam(team) {
             <h5 class="card-title">${engineer.getRole()}</h5>
               <ul class="card-text">
                 <li>ID: ${engineer.getId()}</li>
-                <li>Email: ${engineer.getEmail()}</li>
-                <li>GitHub Username: ${engineer.getGithub()}</li>
+                <li><a href='${engineer.getEmail()}'>Email: ${engineer.getEmail()}</a></li>
+                <li><a href='${engineer.getGithub()}' target='_blank'>GitHub: ${engineer.getGithub()}</a></li>
               </ul>
         </div>
       </div>
@@ -47,7 +47,7 @@ function generateTeam(team) {
             <h5 class="card-title">${intern.getRole()}</h5>
               <ul class="card-text">
                 <li>ID: ${intern.getId()}</li>
-                <li>Email: ${intern.getEmail()}</li>
+                <li><a href='${intern.getEmail()}'>Email: ${intern.getEmail()}</a></li>
                 <li>School: ${intern.getSchool()}</li>
               </ul>
         </div>
