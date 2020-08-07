@@ -1,5 +1,5 @@
-// function to generate html
-
+// 
+//function to generate html
 function generateTeam(team) {
 
   //funciton that generates Manager

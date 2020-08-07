@@ -26,7 +26,8 @@
 
   ## **Usage**
   This application is meant to create an html file with containing a list of employee team member cards from the user input data. 
-  - Here is a video showing how to create the html page: [Team-Generator](https://github.com/allielynne20)
+  - Here is a video showing how to create the html page: [Walkthrough Video](https://github.com/allielynne20)
+  - You can also view the html yourself by clicking on this example html the app created: [Example HTML](https://github.com/allielynne20/wk-ten-challenge/blob/master/dist/index.html)
 
   ## **Contributions**
   There are many ways in which you can contribute to this project, for example:
