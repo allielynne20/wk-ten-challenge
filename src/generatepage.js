@@ -10,9 +10,9 @@ function generateTeam(team) {
           <div class="card-body">
             <h5 class="card-title">${manager.getRole()}</h5>
               <ul class="card-text">
-                <li>${manager.getId()}</li>
-                <li>${manager.getEmail()}</li>
-                <li>${manager.getOfficeNumber()}</li>
+                <li>ID: ${manager.getId()}</li>
+                <li>Email: ${manager.getEmail()}</li>
+                <li>Office ID: ${manager.getOfficeNumber()}</li>
               </ul>
         </div>
       </div>
@@ -28,9 +28,9 @@ function generateTeam(team) {
           <div class="card-body">
             <h5 class="card-title">${engineer.getRole()}</h5>
               <ul class="card-text">
-                <li>${engineer.getId()}</li>
-                <li>${engineer.getEmail()}</li>
-                <li>${engineer.getGithub()}</li>
+                <li>ID: ${engineer.getId()}</li>
+                <li>Email: ${engineer.getEmail()}</li>
+                <li>GitHub Username: ${engineer.getGithub()}</li>
               </ul>
         </div>
       </div>
@@ -46,9 +46,9 @@ function generateTeam(team) {
           <div class="card-body">
             <h5 class="card-title">${intern.getRole()}</h5>
               <ul class="card-text">
-                <li>${intern.getId()}</li>
-                <li>${intern.getEmail()}</li>
-                <li>${intern.getSchool()}</li>
+                <li>ID: ${intern.getId()}</li>
+                <li>Email: ${intern.getEmail()}</li>
+                <li>School: ${intern.getSchool()}</li>
               </ul>
         </div>
       </div>
@@ -100,8 +100,10 @@ module.exports = team => {
 
       <div class="container">
         <div class="row">
-          <div class="col-12 justify-content-center">
-            ${generateTeam(team)}
+          <div class="col-12">
+            <div class="card-group">
+              ${generateTeam(team)}
+            </div>
           </div>
         </div>
       </div>
