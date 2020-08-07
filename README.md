@@ -6,7 +6,7 @@
   This application begins by prompting the user a series of questions from the command line. The user can then input the Manager information first and is then prompted to add an Engineer or Intern to the team, or they can choose to stop the process. After adding all of the neccessary team members the user can simply choose the option to stop the prompts. When the user chooses this option an html page is dynamically generated from the user's input. The html will show emplyee team member cards on the page. 
 
   ## **Example HTML this app created!**
-  ![Example HTML](../team-generator.png)
+  ![Example HTML](./team-generator.png)
 
   ## **Table of Contents**
 
